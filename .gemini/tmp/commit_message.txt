@@ -1,0 +1,25 @@
+feat: Implement Docusaurus frontend UI for textbook
+
+This commit completes the implementation of the Docusaurus frontend UI for the
+"Physical AI & Humanoid Robotics Textbook". This involved setting up the
+core Docusaurus components and structure, including:
+
+- Hero Section: Integrated with gradient background, title, subtitle, and
+  "Start Reading" button.
+- Intro / Text Sections: Existing descriptive content verified.
+- Modules Cards Section: Integrated with module titles, descriptions, and links.
+- Navbar: Configured with textbook title, navigation links, and language/theme toggles.
+- Footer: Implemented with copyright information.
+- Module Pages: Created entry points (`_category_.json` and `index.md`) for
+  each module (1-4), linking to chapter content.
+
+Resolved several build issues during implementation:
+- Added missing `prismThemes` import in `docusaurus.config.ts`.
+- Removed redundant `themeDropdown` from navbar configuration.
+- Corrected image path resolution for `ros2-graph.svg` in `chapter1.md`.
+- Restructured module content to resolve MDX parsing errors by removing
+  direct inclusion of `spec.md`, `plan.md`, and `tasks.md` as content pages
+  and instead referencing their location in the `specs/` directory.
+- Renamed chapter files to include numerical prefixes for proper sidebar ordering.
+
+All changes have been verified with a successful Docusaurus build.
