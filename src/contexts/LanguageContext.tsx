@@ -35,15 +35,15 @@ const translations = {
   },
   'Module 1: ROS 2 Basics': {
     en: 'Module 1: ROS 2 Basics',
-    ur: 'مODULE 1: ROS 2 کی بنیادیں'
+    ur: 'ماڈیول 1: ROS 2 کی بنیادیں'
   },
   'Module 2: Simulation Basics – Gazebo': {
     en: 'Module 2: Simulation Basics – Gazebo',
-    ur: 'مODULE 2: سیمیولیشن کی بنیاد – گزیبو'
+    ur: 'ماڈیول 2: سیمیولیشن کی بنیاد – گزیبو'
   },
   'Module 2: Simulation Basics – Unity': {
     en: 'Module 2: Simulation Basics – Unity',
-    ur: 'مODULE 2: سیمیولیشن کی بنیاد – یونٹی'
+    ur: 'ماڈیول 2: سیمیولیشن کی بنیاد – یونٹی'
   },
   'Key Concepts in Physical AI': {
     en: 'Key Concepts in Physical AI',
@@ -59,11 +59,11 @@ const translations = {
   },
   'Module 3: NVIDIA Isaac AI and Perception': {
     en: 'Module 3: NVIDIA Isaac AI and Perception',
-    ur: 'مODULE 3: NVIDIA Isaac AI اور ادراک'
+    ur: 'ماڈیول 3: NVIDIA Isaac AI اور ادراک'
   },
   'Module 4: Vision-Language-Action (VLA)': {
     en: 'Module 4: Vision-Language-Action (VLA)',
-    ur: 'مODULE 4: وژن-زبان-ایکشن (VLA)'
+    ur: 'ماڈیول 4: وژن-زبان-ایکشن (VLA)'
   },
   'Physical AI & Humanoid Robotics': {
     en: 'Physical AI & Humanoid Robotics',
@@ -71,7 +71,7 @@ const translations = {
   },
   'Explore the Textbook': {
     en: 'Explore the Textbook',
-    ur: ' textbook کا جائزہ لیں'
+    ur: 'نصابی کتاب کا جائزہ لیں'
   },
   'A comprehensive guide to cutting-edge Physical AI and humanoid robotics with interactive RAG chatbot.': {
     en: 'A comprehensive guide to cutting-edge Physical AI and humanoid robotics with interactive RAG chatbot.',
