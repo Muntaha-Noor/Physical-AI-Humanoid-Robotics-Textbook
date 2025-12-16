@@ -8,10 +8,10 @@
   <rect x="450" y="50" width="100" height="50" fill="#add8e6" stroke="#333" stroke-width="2"/>
   <text x="500" y="80" text-anchor="middle" fill="#333">Node C</text>
 
-  <path d="M150 75 H250" stroke="red" stroke-width="2" fill="none"/>
-  <text x="200" y="65" text-anchor="middle" fill="red">Topic 1</text>
-  <path d="M350 75 H450" stroke="green" stroke-width="2" fill="none"/>
-  <text x="400" y="65" text-anchor="middle" fill="green">Topic 2</text>
+  <path d="M150 75 H250" stroke="#0043FF" stroke-width="2" fill="none"/>
+  <text x="200" y="65" text-anchor="middle" fill="#0043FF">Topic 1</text>
+  <path d="M350 75 H450" stroke="#0017FF" stroke-width="2" fill="none"/>
+  <text x="400" y="65" text-anchor="middle" fill="#0017FF">Topic 2</text>
   
   <circle cx="100" cy="150" r="20" fill="#ffcccb" stroke="#333" stroke-width="2"/>
   <text x="100" y="155" text-anchor="middle" font-size="10" fill="#333">Service Req</text>
