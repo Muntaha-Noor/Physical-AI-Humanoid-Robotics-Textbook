@@ -1,0 +1,258 @@
+.whatYoullLearnSection {
+  padding: 4rem 0;
+  background: var(--theme-dark-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  margin-bottom: 1rem;
+  color: var(--theme-dark-text-primary);
+  text-shadow: 0 0 10px var(--neon-blue-glow);
+  margin-bottom: var(--spacing-md);
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--theme-dark-text-secondary);
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.moduleCard {
+  background: var(--theme-dark-surface);
+  border: 1px solid var(--theme-dark-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--elevation-1);
+}
+
+.moduleCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-orange));
+  transform: scaleX(0);
+  transition: transform var(--transition-normal);
+}
+
+.moduleCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-blue);
+  box-shadow: var(--glow-primary), var(--elevation-2);
+}
+
+.moduleCard:hover::before {
+  transform: scaleX(1);
+}
+
+.moduleHeader {
+  margin-bottom: var(--spacing-md);
+}
+
+.moduleTitle {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-sm);
+  color: var(--theme-dark-text-primary);
+  background: linear-gradient(45deg, var(--neon-blue), var(--neon-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0 0 5px var(--neon-blue-glow);
+}
+
+.moduleDescription {
+  color: var(--theme-dark-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+}
+
+.modulePoints {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modulePoint {
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--theme-dark-border);
+  color: var(--theme-dark-text-primary);
+  display: flex;
+  align-items: flex-start;
+}
+
+.modulePoint:last-child {
+  border-bottom: none;
+}
+
+.modulePoint .bullet {
+  color: var(--neon-blue);
+  margin-right: var(--spacing-sm);
+  font-size: var(--font-size-lg);
+  line-height: 1.2;
+  text-shadow: 0 0 5px var(--neon-blue-glow);
+}
+
+/* Learning Features Section */
+.learningFeaturesSection {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg) 0;
+}
+
+.sectionSubtitle2 {
+  text-align: center;
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+  color: var(--theme-dark-text-primary);
+  text-shadow: 0 0 10px var(--neon-orange-glow);
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.featureCard {
+  background: var(--theme-dark-surface);
+  border: 1px solid var(--theme-dark-border);
+  border-radius: 12px;
+  padding: var(--spacing-md);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--elevation-1);
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--neon-orange), var(--neon-blue));
+  transform: scaleX(0);
+  transition: transform var(--transition-normal);
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-orange);
+  box-shadow: 0 0 15px var(--neon-orange-glow), var(--elevation-2);
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+.featureHeader {
+  margin-bottom: var(--spacing-sm);
+}
+
+.featureTitle {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-xs);
+  color: var(--theme-dark-text-primary);
+  background: linear-gradient(45deg, var(--neon-orange), var(--neon-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0 0 5px var(--neon-orange-glow);
+}
+
+.featureDescription {
+  color: var(--theme-dark-text-secondary);
+  line-height: 1.5;
+  font-size: var(--font-size-sm);
+}
+
+/* Capstone Project card styling */
+.capstoneCard {
+  background: var(--theme-dark-surface);
+  border: 1px solid var(--theme-dark-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--elevation-1);
+  margin-top: var(--spacing-xl);
+  text-align: center;
+}
+
+.capstoneCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-purple);
+  box-shadow: 0 0 15px var(--neon-purple-glow), var(--elevation-2);
+}
+
+.capstoneCard .moduleHeader {
+  margin-bottom: var(--spacing-md);
+}
+
+.capstoneCard .moduleTitle {
+  background: linear-gradient(45deg, var(--neon-purple), var(--neon-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0 0 5px var(--neon-purple-glow);
+}
+
+.capstoneCard .moduleDescription {
+  color: var(--theme-dark-text-secondary);
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+  .whatYoullLearnSection {
+    padding: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: var(--font-size-2xl);
+  }
+
+  .modulesGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whatYoullLearnSection {
+    padding: 2rem 0;
+  }
+
+  .sectionTitle {
+    font-size: var(--font-size-xl);
+  }
+
+  .sectionSubtitle {
+    font-size: var(--font-size-base);
+  }
+}

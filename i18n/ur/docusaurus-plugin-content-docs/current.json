@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category 'Tutorial - Extras' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.modules": {
+    "message": "ماڈیولز",
+    "description": "The label for category 'modules' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: ROS 2": {
+    "message": "میڈیول 1: ROS 2",
+    "description": "The label for category 'Module 1: ROS 2' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: Simulation": {
+    "message": "میڈیول 2: سیمولیشن",
+    "description": "The label for category 'Module 2: Simulation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 3: Isaac AI": {
+    "message": "میڈیول 3: ایسیک اے آئی",
+    "description": "The label for category 'Module 3: Isaac AI' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 4: VLA": {
+    "message": "میڈیول 4: وی ایل اے",
+    "description": "The label for category 'Module 4: VLA' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Course Fundamentals": {
+    "message": "کورس کی بنیادی باتیں",
+    "description": "The label for category 'Course Fundamentals' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Course Fundamentals.link.generated-index.description": {
+    "message": "Foundational concepts for Physical AI & Humanoid Robotics, covering ROS 2 and simulation basics.",
+    "description": "The generated-index page description for category 'Course Fundamentals' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Topics": {
+    "message": "اعلیٰ موضوعات",
+    "description": "The label for category 'Advanced Topics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Topics.link.generated-index.description": {
+    "message": "Advanced concepts for Physical AI & Humanoid Robotics, covering NVIDIA Isaac, VLA, and LLM control.",
+    "description": "The generated-index page description for category 'Advanced Topics' in sidebar 'tutorialSidebar'"
+  }
+}

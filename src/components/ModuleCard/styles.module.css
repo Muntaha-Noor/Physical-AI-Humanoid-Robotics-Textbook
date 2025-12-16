@@ -1,0 +1,64 @@
+.moduleCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure cards in a row have equal height */
+}
+
+.moduleCardTitle {
+  font-size: 1.25rem; /* Adjust title size */
+}
+
+.moduleCard .card__body {
+  flex-grow: 1; /* Allow body to take up available space */
+}
+
+.moduleCardButton {
+  width: 100%; /* Make button full width */
+}
+
+/* Gradient button styling to match site's theme */
+.gradientButton {
+  background: linear-gradient(45deg, var(--neon-blue), var(--neon-orange)) !important;
+  color: white !important;
+  border: none !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: var(--font-size-base) !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: all var(--transition-normal) !important;
+  box-shadow: var(--glow-primary) !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  z-index: 1 !important;
+}
+
+.gradientButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, var(--neon-orange), var(--neon-blue));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.gradientButton:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 20px var(--neon-blue-glow) !important;
+  text-decoration: none !important;
+}
+
+.gradientButton:hover::before {
+  opacity: 1;
+}
+
+.gradientButton:active {
+  transform: translateY(0) !important;
+}

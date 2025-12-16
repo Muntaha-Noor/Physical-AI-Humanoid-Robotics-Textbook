@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="simple_box">
+    <link name="box_link">
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.166667</ixx>
+          <iyy>0.166667</iyy>
+          <izz>0.166667</izz>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyz>0.0</iyz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.0 0.0 1.0 1</ambient>
+          <diffuse>0.0 0.0 1.0 1</diffuse>
+          <specular>0.0 0.0 1.0 1</specular>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

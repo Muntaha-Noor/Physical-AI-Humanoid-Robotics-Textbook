@@ -1,0 +1,135 @@
+/**
+ * CSS files with `module.css` suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-color-primary);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introSection {
+  padding: 6rem 0; /* Increased vertical padding for better spacing */
+  background-color: var(--theme-dark-bg);
+  color: var(--theme-dark-text-primary);
+  text-align: center; /* Center align content */
+}
+
+/* Ensure text blocks within introSection are centered and have a readable max-width */
+.introSection p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* Adjust as needed for readability */
+  line-height: 1.6; /* Consistent line height for paragraphs */
+  color: var(--theme-dark-text-secondary);
+}
+
+.introSection h2 {
+  font-size: 2.5rem; /* Slightly larger font size for headings */
+  color: var(--theme-dark-text-primary);
+}
+
+[data-theme='light'] .introSection {
+  background-color: var(--theme-light-bg);
+  color: var(--theme-light-text-primary);
+}
+
+[data-theme='light'] .introSection p {
+  color: var(--theme-light-text-secondary);
+}
+
+[data-theme='light'] .introSection h2 {
+  color: var(--theme-light-text-primary);
+}
+
+
+.curriculumSection {
+  padding: 6rem 0; /* Increased vertical padding for better spacing */
+  background-color: var(--theme-dark-bg);
+  color: var(--theme-dark-text-primary);
+  text-align: center; /* Center align content */
+}
+
+/* Ensure text blocks within curriculumSection are centered and have a readable max-width */
+.curriculumSection p,
+.curriculumSection ul {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* Adjust as needed for readability */
+  text-align: left; /* Align text within paragraphs and list items to the left for readability */
+  line-height: 1.6; /* Consistent line height for paragraphs and list items */
+  color: var(--theme-dark-text-secondary);
+}
+
+.curriculumSection h2 {
+  font-size: 2.5rem; /* Slightly larger font size for headings */
+  color: var(--theme-dark-text-primary);
+}
+
+[data-theme='light'] .curriculumSection {
+  background-color: var(--theme-light-bg);
+  color: var(--theme-light-text-primary);
+}
+
+[data-theme='light'] .curriculumSection p,
+[data-theme='light'] .curriculumSection ul {
+  color: var(--theme-light-text-secondary);
+}
+
+[data-theme='light'] .curriculumSection h2 {
+  color: var(--theme-light-text-primary);
+}
+
+/* For lists, ensure the list items themselves are still readable */
+.curriculumSection ul {
+  list-style-position: inside; /* Keeps bullet points aligned with the list text */
+  padding-left: 0; /* Remove default padding for centering */
+}
+
+/* Glow-accent section divider */
+.glowDivider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-blue), var(--neon-orange), transparent);
+  margin: 2rem 0;
+  position: relative;
+  box-shadow: 0 0 10px var(--neon-blue-glow);
+}
+
+.glowDivider::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-orange), transparent);
+  filter: blur(2px);
+  opacity: 0.7;
+}
+
+.glowDivider::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-blue), transparent);
+  filter: blur(2px);
+  opacity: 0.7;
+}

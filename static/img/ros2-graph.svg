@@ -1,0 +1,25 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="100" height="50" fill="#add8e6" stroke="#333" stroke-width="2"/>
+  <text x="100" y="80" text-anchor="middle" fill="#333">Node A</text>
+
+  <rect x="250" y="50" width="100" height="50" fill="#add8e6" stroke="#333" stroke-width="2"/>
+  <text x="300" y="80" text-anchor="middle" fill="#333">Node B</text>
+
+  <rect x="450" y="50" width="100" height="50" fill="#add8e6" stroke="#333" stroke-width="2"/>
+  <text x="500" y="80" text-anchor="middle" fill="#333">Node C</text>
+
+  <path d="M150 75 H250" stroke="#0043FF" stroke-width="2" fill="none"/>
+  <text x="200" y="65" text-anchor="middle" fill="#0043FF">Topic 1</text>
+  <path d="M350 75 H450" stroke="#0017FF" stroke-width="2" fill="none"/>
+  <text x="400" y="65" text-anchor="middle" fill="#0017FF">Topic 2</text>
+  
+  <circle cx="100" cy="150" r="20" fill="#ffcccb" stroke="#333" stroke-width="2"/>
+  <text x="100" y="155" text-anchor="middle" font-size="10" fill="#333">Service Req</text>
+  <line x1="100" y1="170" x2="300" y2="200" stroke="purple" stroke-width="2"/>
+  <line x1="300" y1="200" x2="100" y2="230" stroke="purple" stroke-width="2"/>
+  <circle cx="300" cy="200" r="20" fill="#ffcccb" stroke="#333" stroke-width="2"/>
+  <text x="300" y="205" text-anchor="middle" font-size="10" fill="#333">Service Srv</text>
+  <text x="200" y="190" text-anchor="middle" fill="purple">Service A</text>
+
+  <text x="300" y="270" text-anchor="middle" font-size="12" fill="#333">ROS 2 Execution Graph (Conceptual)</text>
+</svg>

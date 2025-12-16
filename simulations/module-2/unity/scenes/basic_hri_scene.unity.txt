@@ -1,0 +1,21 @@
+# Instructions to Create basic_hri_scene.unity
+
+This file serves as a placeholder and guide for creating the Unity scene.
+
+**To create the `basic_hri_scene.unity` file:**
+
+1.  **Open your Unity Project**: Ensure you have a Unity project set up with the HDRP pipeline and the URDF Importer package installed (as guided in Chapter 2).
+2.  **Create a New Scene**: Go to `File > New Scene`. Choose the "HDRP (Experimental)" template. Save this scene as `basic_hri_scene` in the `simulations/module-2/unity/scenes/` directory.
+3.  **Add a Ground Plane**:
+    *   Right-click in the Hierarchy window.
+    *   Go to `3D Object > Plane`.
+    *   Position and scale the plane to serve as the ground.
+4.  **Add Directional Light**:
+    *   Ensure there's a `Directional Light` in your scene. If not, right-click in the Hierarchy window, go to `Light > Directional Light`. Adjust its rotation for desired shadows.
+5.  **Add a Humanoid Model**:
+    *   Import a humanoid URDF model as guided in Chapter 2.
+    *   Drag the imported humanoid prefab from your Project window into the scene Hierarchy. Position it on the ground plane.
+6.  **Add a Volume Profile**:
+    *   In the Hierarchy, select the `Global Volume` GameObject.
+    *   In the Inspector, next to `Profile`, click "New" to create a new Volume Profile. This will enable HDRP post-processing effects.
+7.  **Save the Scene**: `File > Save` (or Ctrl+S).

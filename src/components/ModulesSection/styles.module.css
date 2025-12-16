@@ -1,0 +1,42 @@
+.modulesSection {
+  padding: 6rem 0; /* Increased vertical padding for better spacing */
+  background-color: var(--theme-dark-bg);
+  color: var(--theme-dark-text-primary);
+  text-align: center; /* Center align content */
+}
+
+.modulesSection h2 {
+  font-size: 2.5rem; /* Slightly larger font size for headings */
+  color: var(--theme-dark-text-primary);
+}
+
+[data-theme='light'] .modulesSection {
+  background-color: var(--theme-light-bg);
+  color: var(--theme-light-text-primary);
+}
+
+[data-theme='light'] .modulesSection h2 {
+  color: var(--theme-light-text-primary);
+}
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to one column on small screens */
+  gap: 2rem; /* Increased gap for better spacing between cards and rows */
+  align-items: stretch; /* Ensure cards stretch to fill height */
+  justify-items: center; /* Center items horizontally within their grid area */
+  margin: 0 auto; /* Center the grid itself */
+  max-width: 960px; /* Limit max width for consistency */
+}
+
+@media screen and (min-width: 768px) {
+  .modulesGrid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens and up */
+  }
+}
+
+.moduleCardWrapper {
+  /* No specific styling here, as the grid handles layout.
+     If margin-bottom was needed for vertical spacing when stacking, 
+     it would be applied here, but gap handles it in the grid. */
+}

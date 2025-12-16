@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "فزیکل اے آئی اور ہیومینائڈ روبوٹکس",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ہیومینائڈ روبوٹکس لوگو",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Textbook": {
+    "message": "درسی کتاب",
+    "description": "Navbar item with label Textbook"
+  }
+}

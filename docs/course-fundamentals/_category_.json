@@ -1,0 +1,8 @@
+{
+  "label": "Course Fundamentals",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Foundational concepts for Physical AI & Humanoid Robotics, covering ROS 2 and simulation basics."
+  }
+}

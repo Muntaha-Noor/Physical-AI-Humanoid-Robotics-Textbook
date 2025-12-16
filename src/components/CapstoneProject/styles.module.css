@@ -1,0 +1,196 @@
+.capstoneSection {
+  padding: 4rem 0;
+  background: #0a0a0a; /* Dark background */
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--neon-orange); /* Neon orange border */
+  border-bottom: 1px solid var(--neon-orange); /* Neon orange border */
+}
+
+.capstoneSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-orange), transparent); /* Neon orange line */
+  top: 0;
+}
+
+.capstoneSection::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-orange), transparent); /* Neon orange line */
+  bottom: 0;
+}
+
+.capstoneContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.capstoneIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--neon-blue), var(--neon-orange)); /* Updated to use theme variables */
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 20px var(--neon-blue-glow); /* Added glow effect */
+}
+
+.capstoneIcon::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--neon-blue), var(--neon-orange));
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.5;
+}
+
+.glowAccent {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--neon-blue), var(--neon-orange));
+  z-index: -2;
+  filter: blur(15px);
+  opacity: 0.3;
+  animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+.capstoneSvg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.capstoneTitle {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-orange)); /* Neon blue to orange gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.capstoneDescription {
+  font-size: 1.2rem;
+  color: #d0d0d0;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capstoneFeatures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+  padding: 1.5rem;
+  background: #1a1a1a; /* Dark card background */
+  border-radius: 8px;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.featureItem:hover {
+  transform: translateY(-3px);
+  border-color: var(--neon-blue); /* Neon blue border on hover */
+  box-shadow: 0 5px 15px var(--neon-blue-glow); /* Neon glow */
+}
+
+.featureIcon {
+  font-size: 2rem;
+  min-width: 50px;
+  text-align: center;
+}
+
+.featureText h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--neon-blue); /* Neon blue text */
+  font-size: 1.2rem;
+}
+
+.featureText p {
+  margin: 0;
+  color: #e0e0e0;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 996px) {
+  .capstoneSection {
+    padding: 3rem 0;
+  }
+
+  .capstoneTitle {
+    font-size: 2rem;
+  }
+
+  .capstoneDescription {
+    font-size: 1.1rem;
+  }
+
+  .capstoneFeatures {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .capstoneSection {
+    padding: 2rem 0;
+  }
+
+  .capstoneTitle {
+    font-size: 1.8rem;
+  }
+
+  .capstoneIcon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+
+  .capstoneSvg {
+    width: 30px;
+    height: 30px;
+  }
+}

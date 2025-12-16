@@ -1,0 +1,547 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "یہ صفحہ کریش ہو گیا۔",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "اوپر واپس جائیں",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "آرکائیو",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "آرکائیو",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "بلاگ لسٹ پیج نیویگیشن",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "نئی اندراجات",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "پرانی اندراجات",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "بلاگ پوسٹ پیج نیویگیشن",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "نئی پوسٹ",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "پرانی پوسٹ",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "تمام ٹیگز دیکھیں",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "سسٹم موڈ",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "لائٹ موڈ",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ڈارک موڈ",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ڈارک اور لائٹ موڈ کے درمیان سوئچ کریں (فی الحال {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "بریڈ کرمبز",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 آئٹم|{count} آئٹمز",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "دستاویزات کے صفحات",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "پچھلا",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "اگلا",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "ایک دستاویز ٹیگ شدہ|{count} دستاویزات ٹیگ شدہ",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} \"{tagName}\" کے ساتھ،",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "ورژن: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "{siteTitle} {versionLabel} ورژن کے لیے یہ غیر جاری شدہ دستاویزات ہیں.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "یہ {siteTitle} {versionLabel} کے لیے دستاویزات ہیں، جو اب فعال طور پر برقرار نہیں ہیں۔",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "تازہ ترین دستاویزات کے لیے، {latestVersionLink} ({versionLabel}) دیکھیں۔",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "تازہ ترین ورژن",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "اس صفحے میں ترمیم کریں",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} کا براہ راست لنک",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} کو",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} کے ذریعے",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخری بار {atDate}{byUser} کو اپ ڈیٹ کیا گیا",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "ورژنز",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحہ نہیں ملا",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "ٹیگز:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "احتیاط",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطرہ",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "نوٹ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ٹپ",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "انتباہ",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بند کریں",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "بلاگ کی حالیہ پوسٹس نیویگیشن",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "سائڈبار زمرہ '{label}' کو پھیلائیں",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "سائڈبار زمرہ '{label}' کو سکیڑیں",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(نئی ٹیب میں کھلتا ہے)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "مرکزی",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زبانیں",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "ہمیں وہ نہیں مل سکا جس کی آپ تلاش کر رہے تھے۔",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "براہ کرم اس سائٹ کے مالک سے رابطہ کریں جس نے آپ کو اصل یو آر ایل سے منسلک کیا ہے اور انہیں بتائیں کہ ان کا لنک ٹوٹ گیا ہے۔",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "اس صفحے پر",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "مزید پڑھیں",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} کے بارے میں مزید پڑھیں",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "ایک منٹ پڑھا|{readingTime} منٹ پڑھے",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کاپی",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کاپی ہو گیا",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کوڈ کو کلپ بورڈ پر کاپی کریں",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "ورڈ ریپ کو ٹوگل کریں",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "مرکزی صفحہ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "سائڈبار کو سکیڑیں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "سائڈبار کو سکیڑیں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "دستاویزات سائڈبار",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار بند کریں",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← مرکزی مینو پر واپس جائیں",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار کو ٹوگل کریں",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "ڈراپ ڈاؤن کو پھیلائیں",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "ڈراپ ڈاؤن کو سکیڑیں",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "سائڈبار کو پھیلائیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "سائڈبار کو پھیلائیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "ایک پوسٹ|{count} پوسٹس",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} \"{tagName}\" کے ساتھ ٹیگ شدہ،",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "مصنفین",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "تمام مصنفین دیکھیں",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "اس مصنف نے ابھی تک کوئی پوسٹ نہیں لکھی ہے۔",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "غیر مندرج صفحہ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "یہ صفحہ غیر مندرج ہے۔ سرچ انجن اسے انڈیکس نہیں کریں گے، اور صرف براہ راست لنک رکھنے والے صارفین ہی اس تک رسائی حاصل کر سکتے ہیں۔",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "ڈرافٹ صفحہ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "یہ صفحہ ایک ڈرافٹ ہے۔ یہ صرف ڈیو میں نظر آئے گا اور پروڈکشن بلڈ سے خارج کر دیا جائے گا۔",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دوبارہ کوشش کریں",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "مرکزی مواد پر جائیں",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "ٹیگز",
+    "description": "The title of the tag list page"
+  },
+  "homepage.introSection.title": {
+    "message": "ہیومینائڈ روبوٹکس کا مستقبل انلاک کریں",
+    "description": "Title for the intro section on the homepage"
+  },
+  "homepage.introSection.description": {
+    "message": "دلچسپ دنیا میں گہرائی سے غوطہ لگائیں جہاں مصنوعی ذہانت جسمانی تجسم سے ملتی ہے۔ یہ نصابی کتاب ایڈوانسڈ کمپیوٹر سائنس اور روبوٹکس کے طلباء کے لیے نہایت احتیاط سے تیار کی گئی ہے، جو نظریاتی علم اور عملی اطلاق کا ایک منفرد امتزاج پیش کرتی ہے۔ ROS 2 کے بنیادی اصولوں سے لے کر وژن-لینگویج-ایکشن سسٹم کے پیچیدہ رقص تک، ذہین مشینوں کی اگلی نسل کو بنانے، نقل کرنے، اور پروگرام کرنے کے لیے تیار رہیں۔",
+    "description": "Description for the intro section on the homepage"
+  },
+  "homepage.curriculumSection.title": {
+    "message": "آپ کیا سیکھیں گے",
+    "description": "Title for the curriculum section on the homepage"
+  },
+  "homepage.curriculumSection.description": {
+    "message": "ہمارا نصاب چار جامع ماڈیولز میں ترتیب دیا گیا ہے، ہر ایک پچھلے پر تعمیر کرتے ہوئے فزیکل اے آئی اور ہیومینائڈ روبوٹکس کی مکمل تفہیم فراہم کرتا ہے۔",
+    "description": "Description for the curriculum section on the homepage"
+  },
+  "homepage.curriculumSection.module1.title": {
+    "message": "ماڈیول 1: روبوٹک نروس سسٹم (ROS 2)",
+    "description": "Title for Module 1 in curriculum section"
+  },
+  "homepage.curriculumSection.module1.description": {
+    "message": "روبوٹ کنٹرول کے لیے مڈل ویئر کی بنیادی باتوں میں مہارت حاصل کریں۔",
+    "description": "Description for Module 1 in curriculum section"
+  },
+  "homepage.curriculumSection.module2.title": {
+    "message": "ماڈیول 2: ڈیجیٹل ٹوئن (گیزیبو اور یونٹی)",
+    "description": "Title for Module 2 in curriculum section"
+  },
+  "homepage.curriculumSection.module2.description": {
+    "message": "حقیقت پسندانہ ماحول اور سینسر ماڈلنگ کے لیے جدید سمولیشن دریافت کریں۔",
+    "description": "Description for Module 2 in curriculum section"
+  },
+  "homepage.curriculumSection.module3.title": {
+    "message": "ماڈیول 3: اے آئی روبوٹ دماغ (این وی آئی ڈی آئی اے آئزک)",
+    "description": "Title for Module 3 in curriculum section"
+  },
+  "homepage.curriculumSection.module3.description": {
+    "message": "اعلی کارکردگی کے تصور، VSLAM، اور نیویگیشن میں گہرائی سے جائیں۔",
+    "description": "Description for Module 3 in curriculum section"
+  },
+  "homepage.curriculumSection.module4.title": {
+    "message": "ماڈیول 4: وژن-لینگویج-ایکشن (VLA)",
+    "description": "Title for Module 4 in curriculum section"
+  },
+  "homepage.curriculumSection.module4.description": {
+    "message": "قدرتی زبان کی تفہیم اور خود مختار ہیومینائڈ ایکشن کے لیے LLMs کو مربوط کریں۔",
+    "description": "Description for Module 4 in curriculum section"
+  },
+  "homepage.curriculumSection.principles.title": {
+    "message": "ہر ماڈیول کو دوبارہ پیدا کرنے کی صلاحیت، تکنیکی درستگی، اور تعلیمی وضاحت کے بنیادی اصولوں کے ساتھ ڈیزائن کیا گیا ہے۔ آپ کو ملے گا:",
+    "description": "Title for principles section in curriculum"
+  },
+  "homepage.curriculumSection.principles.detailedExplanations": {
+    "message": "تفصیلی وضاحتیں",
+    "description": "Detailed Explanations item"
+  },
+  "homepage.curriculumSection.principles.handsOnCodeExamples": {
+    "message": "عملی کوڈ کی مثالیں",
+    "description": "Hands-on Code Examples item"
+  },
+  "homepage.curriculumSection.principles.clearDiagramsVisuals": {
+    "message": "واضح خاکے اور بصری",
+    "description": "Clear Diagrams & Visuals item"
+  },
+  "homepage.curriculumSection.principles.capstoneProject": {
+    "message": "کیپسٹرون پروجیکٹ",
+    "description": "Capstone Project item"
+  },
+  "homepage.curriculumSection.principles.capstoneProjectDescription": {
+    "message": "علم کا ایک نقطہ عروج، جو آپ کو ایک خود مختار آواز سے کنٹرول شدہ ہیومینائڈ بنانے کی اجازت دیتا ہے۔",
+    "description": "Capstone Project description"
+  },
+  "heroSection.title": {
+    "message": "فزیکل اے آئی اور ہیومینائڈ روبوٹکس درسی کتاب",
+    "description": "Title for Hero Section"
+  },
+  "heroSection.subtitle": {
+    "message": "جدید فزیکل اے آئی اور ہیومینائڈ روبوٹکس کے لیے ایک جامع رہنما، جس میں ROS 2، جدید سمولیشن، اور AI سے چلنے والی بصیرت اور منصوبہ بندی، ایک انٹرایکٹو RAG چیٹ بوٹ کے ساتھ شامل ہیں۔",
+    "description": "Subtitle for Hero Section"
+  },
+  "heroSection.button": {
+    "message": "پڑھنا شروع کریں →",
+    "description": "Button text for Hero Section"
+  },
+  "modulesSection.title": {
+    "message": "ہمارے ماڈیولز",
+    "description": "Title for Modules Section"
+  },
+  "modulesSection.module1.title": {
+    "message": "ماڈیول 1: روبوٹک نروس سسٹم (ROS 2)",
+    "description": "Title for Module 1 in Modules Section"
+  },
+  "modulesSection.module1.description": {
+    "message": "روبوٹ کنٹرول کے لیے مڈل ویئر کی بنیادی باتوں، ROS 2 کمیونیکیشن پرائمیٹوز، rclpy کا استعمال کرتے ہوئے Python-to-ROS برج، اور ہیومینائڈ روبوٹس کے لیے URDF کے بنیادی اصولوں میں مہارت حاصل کریں۔",
+    "description": "Description for Module 1 in Modules Section"
+  },
+  "modulesSection.module2.title": {
+    "message": "ماڈیول 2: ڈیجیٹل ٹوئن (گیزیبو اور یونٹی)",
+    "description": "Title for Module 2 in Modules Section"
+  },
+  "modulesSection.module2.description": {
+    "message": "حقیقت پسندانہ ماحول اور سینسر ماڈلنگ کے لیے جدید سمولیشن دریافت کریں، جس میں گیزیبو میں فزکس سمولیشن اور یونٹی میں ہائی فیڈیلیٹی رینڈرنگ پر توجہ دی گئی ہے۔",
+    "description": "Description for Module 2 in Modules Section"
+  },
+  "modulesSection.module3.title": {
+    "message": "ماڈیول 3: اے آئی روبوٹ دماغ (این وی آئی ڈی آئی اے آئزک)",
+    "description": "Title for Module 3 in Modules Section"
+  },
+  "modulesSection.module3.description": {
+    "message": "این وی آئی ڈی آئی اے آئزک ٹولز کا استعمال کرتے ہوئے جدید تصور، فوٹو ریئلسٹک سمولیشن، مصنوعی ڈیٹا جنریشن، VSLAM، نیویگیشن، اور ہیومینائڈ پاتھ پلاننگ میں گہرائی سے جائیں۔",
+    "description": "Description for Module 3 in Modules Section"
+  },
+  "modulesSection.module4.title": {
+    "message": "ماڈیول 4: وژن-لینگویج-ایکشن (VLA)",
+    "description": "Title for Module 4 in Modules Section"
+  },
+  "modulesSection.module4.description": {
+    "message": "اوپن اے آئی وِسپر، علمی منصوبہ بندی، اور ایک کیپسٹرون پروجیکٹ کا احاطہ کرتے ہوئے، آواز سے چلنے والے خود مختار اعمال کے لیے بڑے لینگویج ماڈلز (LLMs) کو ہیومینائڈ روبوٹکس کے ساتھ مربوط کریں۔",
+    "description": "Description for Module 4 in Modules Section"
+  },
+  "Unlock the Future of Humanoid Robotics": {
+    "message": "ہیومینائڈ روبوٹکس کا مستقبل کھولیں"
+  },
+  "Dive deep into the fascinating world where artificial intelligence meets physical embodiment. This textbook is meticulously crafted for advanced Computer Science and Robotics students, offering a unique blend of theoretical knowledge and practical application. From the foundational principles of ROS 2 to the intricate dance of Vision-Language-Action systems, prepare to build, simulate, and program the next generation of intelligent machines.": {
+    "message": "مصنوعی ذہانت اور طبیعیاتی تجسم کی دلچسپ دنیا میں گہری ڈبکی لگائیں۔ یہ نصابی کتاب جدید کمپیوٹر سائنس اور روبوٹکس کے طلباء کے لیے نہایت احتیاط سے تیار کی گئی ہے، جو نظریاتی علم اور عملی اطلاق کا ایک منفرد امتزاج پیش کرتی ہے۔ ROS 2 کے بنیادی اصولوں سے لے کر وژن-لینگویج-ایکشن سسٹمز کے پیچیدہ رقص تک، ذہین مشینوں کی اگلی نسل کی تعمیر، نقالی، اور پروگرامنگ کے لیے تیار ہوں۔"
+  },
+  "What You'll Learn": {
+    "message": "آپ کیا سیکھیں گے"
+  },
+  "Our curriculum is structured into four comprehensive modules, each building upon the last to provide a holistic understanding of Physical AI and Humanoid Robotics:": {
+    "message": "ہمارا نصاب چار جامع ماڈیولز میں ترتیب دیا گیا ہے، ہر ایک پچھلے ماڈیول پر بنتا ہے تاکہ فزیکل AI اور ہیومنائیڈ روبوٹکس کی ایک جامع تفہیم فراہم کی جا سکے۔"
+  },
+  "Module 1: The Robotic Nervous System (ROS 2)": {
+    "message": "ماڈیول 1: روبوٹک اعصابی نظام (ROS 2)"
+  },
+  ": Master the middleware essentials for robot control.": {
+    "message": ": روبوٹ کنٹرول کے لیے مڈل ویئر کی ضروریات میں مہارت حاصل کریں۔"
+  },
+  "Module 2: The Digital Twin (Gazebo & Unity)": {
+    "message": "ماڈیول 2: ڈیجیٹل ٹوئن (گیزیبو اور یونٹی)"
+  },
+  ": Explore advanced simulation for realistic environment and sensor modeling.": {
+    "message": ": حقیقت پسندانہ ماحول اور سینسر ماڈلنگ کے لیے جدید نقالی کو دریافت کریں۔"
+  },
+  "Module 3: The AI-Robot Brain (NVIDIA Isaac)": {
+    "message": "ماڈیول 3: AI-روبوٹ دماغ (NVIDIA Isaac)"
+  },
+  ": Delve into high-performance perception, VSLAM, and navigation.": {
+    "message": ": اعلی کارکردگی والے ادراک، VSLAM، اور نیویگیشن میں گہرائی میں جائیں."
+  },
+  "Module 4: Vision-Language-Action (VLA)": {
+    "message": "ماڈیول 4: وژن-لینگویج-ایکشن (VLA)"
+  },
+  ": Integrate LLMs for natural language understanding and autonomous humanoid action.": {
+    "message": ": قدرتی زبان کی تفہیم اور خود مختار ہیومنائیڈ ایکشن کے لیے LLMs کو مربوط کریں۔"
+  },
+  "Each module is designed with reproducibility, technical accuracy, and educational clarity as core principles. You will find:": {
+    "message": "ہر ماڈیول کو دوبارہ پیدا کرنے کی صلاحیت، تکنیکی درستگی، اور تعلیمی وضاحت کے بنیادی اصولوں کے ساتھ ڈیزائن کیا گیا ہے۔ آپ کو ملے گا:"
+  },
+  "Detailed Explanations": {
+    "message": "تفصیلی وضاحتیں"
+  },
+  ": Concepts broken down for advanced learners.": {
+    "message": ": جدید سیکھنے والوں کے لیے تصورات کو توڑا گیا ہے۔"
+  },
+  "Hands-on Code Examples": {
+    "message": "عملی کوڈ کی مثالیں"
+  },
+  ": All code samples are tested and runnable in their respective simulation environments.": {
+    "message": ": تمام کوڈ کے نمونے ٹیسٹ شدہ ہیں اور ان کے متعلقہ نقلی ماحول میں چلنے کے قابل ہیں۔"
+  },
+  "Clear Diagrams & Visuals": {
+    "message": "واضح خاکے اور بصری مواد"
+  },
+  ": To aid understanding of complex systems.": {
+    "message": ": پیچیدہ نظاموں کو سمجھنے میں مدد کے لیے."
+  },
+  "Capstone Project": {
+    "message": "کیپ اسٹون پروجیکٹ"
+  },
+  ": A culmination of knowledge, allowing you to build an autonomous voice-controlled humanoid.": {
+    "message": ": علم کا ایک اختتام، جو آپ کو ایک خود مختار آواز سے کنٹرول شدہ ہیومنائیڈ بنانے کی اجازت دیتا ہے۔"
+  },
+  "Physical AI & Humanoid Robotics Textbook": {
+    "message": "فزیکل AI اور ہیومنائیڈ روبوٹکس کی نصابی کتاب"
+  },
+  "A comprehensive guide to cutting-edge Physical AI and humanoid robotics, integrating ROS 2, advanced simulation, and AI-driven perception and planning, with an interactive RAG chatbot.": {
+    "message": "جدید فزیکل AI اور ہیومنائیڈ روبوٹکس کے لیے ایک جامع گائیڈ، جس میں ROS 2، جدید نقالی، اور AI سے چلنے والے ادراک اور منصوبہ بندی کو ایک انٹرایکٹو RAG چیٹ بوٹ کے ساتھ مربوط کیا گیا ہے۔"
+  },
+  "Start Reading →": {
+    "message": "پڑھنا شروع کریں →"
+  },
+  "Open Module →": {
+    "message": "ماڈیول کھولیں →"
+  },
+  "Master the middleware essentials for robot control, ROS 2 communication primitives, Python-to-ROS bridges using rclpy, and URDF fundamentals for humanoid robots.": {
+    "message": "روبوٹ کنٹرول کے لیے مڈل ویئر کی ضروریات، ROS 2 کمیونیکیشن پرائمیٹوز، rclpy کا استعمال کرتے ہوئے Python-to-ROS برجز، اور ہیومنائیڈ روبوٹس کے لیے URDF کے بنیادی اصولوں میں مہارت حاصل کریں۔"
+  },
+  "Explore advanced simulation for realistic environment and sensor modeling, focusing on physics simulation in Gazebo and high-fidelity rendering in Unity.": {
+    "message": "حقیقت پسندانہ ماحول اور سینسر ماڈلنگ کے لیے جدید نقالی کو دریافت کریں، جس میں گیزیبو میں فزکس نقالی اور یونٹی میں اعلیٰ وفاداری رینڈرنگ پر توجہ مرکوز کی گئی ہے۔"
+  },
+  "Dive into advanced perception, photorealistic simulation, synthetic data generation, VSLAM, navigation, and humanoid path-planning using NVIDIA Isaac tools.": {
+    "message": "NVIDIA Isaac ٹولز کا استعمال کرتے ہوئے جدید ادراک، فوٹو ریئلسٹک نقالی، مصنوعی ڈیٹا جنریشن، VSLAM، نیویگیشن، اور ہیومنائیڈ پاتھ پلاننگ میں گہرائی میں جائیں۔"
+  },
+  "Integrate large language models (LLMs) with humanoid robotics for voice-driven autonomous actions, covering OpenAI Whisper, cognitive planning, and a capstone project.": {
+    "message": "آواز سے چلنے والے خود مختار اعمال کے لیے بڑے لینگویج ماڈلز (LLMs) کو ہیومنائیڈ روبوٹکس کے ساتھ مربوط کریں، جس میں OpenAI Whisper، علمی منصوبہ بندی، اور ایک کیپ اسٹون پروجیکٹ شامل ہے۔"
+  },
+  "Our Modules": {
+    "message": "ہمارے ماڈیولز"
+  },
+  "Course Overview: Physical AI & Humanoid Robotics": {
+    "message": "کورس کا جائزہ: جسمانی اے آئی اور ہیومنوڈ روبوٹکس",
+    "description": "The main heading for the course overview page"
+  },
+  "What You Will Learn": {
+    "message": "آپ کیا سیکھیں گے",
+    "description": "Heading for the learning outcomes section"
+  }
+}

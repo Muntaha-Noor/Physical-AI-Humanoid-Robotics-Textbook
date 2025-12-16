@@ -1,0 +1,235 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Futuristic theme design tokens */
+:root {
+  /* Dark theme colors */
+  --theme-dark-bg: #0a0a0f;
+  --theme-dark-surface: #121218;
+  --theme-dark-surface-secondary: #1a1a20;
+  --theme-dark-border: #25252e;
+  --theme-dark-text-primary: #ffffff;
+  --theme-dark-text-secondary: #b0b0c0;
+  --theme-dark-text-tertiary: #888899;
+
+  /* Light theme colors */
+  --theme-light-bg: #f8f9ff;
+  --theme-light-surface: #ffffff;
+  --theme-light-surface-secondary: #f0f2ff;
+  --theme-light-border: #d0d4e4;
+  --theme-light-text-primary: #0a0a0f;
+  --theme-light-text-secondary: #4a4a55;
+  --theme-light-text-tertiary: #777788;
+
+  /* Neon accent colors */
+  --neon-blue: #0043FF;
+  --neon-blue-glow: #0043FF44;
+  --neon-blue-dark: #0017FF;
+  --neon-orange: #d17d3e;
+  --neon-orange-glow: #d17d3e44;
+  --neon-purple: #7d3eff;
+  --neon-purple-glow: #7d3eff44;
+
+  /* Glow and shadow effects */
+  --glow-primary: 0 0 15px var(--neon-blue-glow);
+  --glow-secondary: 0 0 10px var(--neon-orange-glow);
+  --elevation-1: 0 4px 20px rgba(0, 0, 0, 0.15);
+  --elevation-2: 0 6px 30px rgba(0, 0, 0, 0.20);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+
+  /* You can override the default Infima variables here. */
+  --ifm-color-primary: var(--neon-blue);
+  --ifm-color-primary-dark: #0038e6;
+  --ifm-color-primary-darker: #002dbf;
+  --ifm-color-primary-darkest: #002299;
+  --ifm-color-primary-light: #1a5eff;
+  --ifm-color-primary-lighter: #3377ff;
+  --ifm-color-primary-lightest: #4d8fff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: var(--neon-blue);
+  --ifm-color-primary-dark: #0038e6;
+  --ifm-color-primary-darker: #002dbf;
+  --ifm-color-primary-darkest: #002299;
+  --ifm-color-primary-light: #1a5eff;
+  --ifm-color-primary-lighter: #3377ff;
+  --ifm-color-primary-lightest: #4d8fff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Futuristic theme styles */
+.futuristic-theme {
+  background: var(--theme-dark-bg);
+  color: var(--theme-dark-text-primary);
+}
+
+.futuristic-theme.light {
+  background: var(--theme-light-bg);
+  color: var(--theme-light-text-primary);
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: var(--glow-primary);
+}
+
+.glow-secondary {
+  box-shadow: var(--glow-secondary);
+}
+
+.glow-border {
+  border: 1px solid transparent;
+  background: linear-gradient(var(--theme-dark-bg), var(--theme-dark-bg)) padding-box,
+              linear-gradient(45deg, var(--neon-blue), var(--neon-orange)) border-box;
+  border-radius: 8px;
+}
+
+.glow-border[data-theme='light'] {
+  background: linear-gradient(var(--theme-light-bg), var(--theme-light-bg)) padding-box,
+              linear-gradient(45deg, var(--neon-blue), var(--neon-orange)) border-box;
+}
+
+/* Text color rules */
+[data-theme='dark'] {
+  color: var(--theme-dark-text-primary);
+}
+
+[data-theme='light'] {
+  color: var(--theme-light-text-primary);
+}
+
+/* Elevation effects */
+.elevation-1 {
+  box-shadow: var(--elevation-1);
+}
+
+.elevation-2 {
+  box-shadow: var(--elevation-2);
+}
+
+/* Smooth transitions */
+.transition-normal {
+  transition: all var(--transition-normal);
+}
+
+/* Card styling */
+.futuristic-card {
+  background: var(--theme-dark-surface);
+  border: 1px solid var(--theme-dark-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  margin: var(--spacing-md);
+  transition: all var(--transition-normal);
+}
+
+.futuristic-card:hover {
+  box-shadow: var(--glow-primary), var(--elevation-2);
+  transform: translateY(-5px);
+  border-color: var(--neon-blue);
+}
+
+.futuristic-card[data-theme='light'] {
+  background: var(--theme-light-surface);
+  border: 1px solid var(--theme-light-border);
+}
+
+.futuristic-card[data-theme='light']:hover {
+  border-color: var(--neon-blue);
+}
+
+/* Reusable utility classes for glow effects */
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity var(--transition-normal);
+}
+
+.glow-effect:hover::after {
+  box-shadow: 0 0 20px var(--neon-blue-glow);
+  opacity: 1;
+}
+
+/* Futuristic footer styling */
+.footer {
+  background: var(--theme-dark-bg) !important;
+  color: var(--theme-dark-text-primary);
+  border-top: 1px solid var(--theme-dark-border);
+}
+
+.footer__title {
+  color: var(--theme-dark-text-primary);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+
+.footer__link-item {
+  color: var(--theme-dark-text-secondary) !important;
+  transition: all var(--transition-normal);
+  display: block;
+  margin-bottom: var(--spacing-xs);
+}
+
+.footer__link-item:hover {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 5px var(--neon-blue-glow);
+  transform: translateX(5px);
+}
+
+.footer__copyright {
+  color: var(--theme-dark-text-secondary);
+  border-top: 1px solid var(--theme-dark-border);
+  padding-top: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .footer__col {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .footer__copyright {
+    text-align: left;
+  }
+}
